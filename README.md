@@ -1,8 +1,13 @@
-# Demo of ServiceLoader
+# Demo of java.util.ServiceLoader
 
 This is a small demo of how
-link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/ServiceLoader.html[ServiceLoaders]
+[ServiceLoaders](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/ServiceLoader.html)
 work in Java.
+For more information, see my note
+https://abeshenov.github.io/blog/2023-01-08-serviceliader.html
+
+
+## Running the demo
 
 First, package our service provider into a JAR:
 
