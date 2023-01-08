@@ -6,28 +6,24 @@ work in Java.
 
 First, package our service provider into a JAR:
 
-[source, shell]
-----
+```shell
 ./gradlew hello-world-service:jar
-----
+```
 
 Now confirm that it really provides our service:
 
-[source, shell]
-----
+```shell
 jar --file hello-world-service/build/libs/hello-world-service.jar --describe-module
-----
+```
 
 Copy the JAR to the application directory:
 
-[source, shell]
-----
+```shell
 cp hello-world-service/build/libs/hello-world-service.jar app
-----
+```
 
 Run the app:
 
-[source, shell]
-----
+```shell
 ./gradlew app:run
-----
+```
