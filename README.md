@@ -4,7 +4,7 @@ This is a small demo of how
 [ServiceLoaders](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/ServiceLoader.html)
 work in Java.
 For more information, see my note
-https://abeshenov.github.io/blog/2023-01-08-serviceliader.html
+https://abeshenov.github.io/blog/2023-01-08-serviceloader.html
 
 
 ## Running the demo
